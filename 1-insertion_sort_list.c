@@ -13,7 +13,7 @@ void insertion_sort_list(listint_t **list)
 
 	curr = (*list)->next;
 
-	for(nxt = (*list)->next; nxt; nxt = nxt->next)
+	for (nxt = (*list)->next; nxt; nxt = nxt->next)
 	{
 		while (curr->prev && curr->n < curr->prev->n)
 		{
