@@ -18,7 +18,7 @@ int lomuto(int *array, size_t size, int low, int high)
 		if (array[j] <= pivot)
 		{
 			i++;
-			if ( i != j)
+			if (i != j)
 			{
 				temp = array[i];
 				array[i] = array[j];
